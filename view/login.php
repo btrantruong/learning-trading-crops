@@ -8,9 +8,9 @@
     <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
     
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles-merged.css">
-    <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="../css/styles-merged.css">
+    <link rel="stylesheet" href="../css/style.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
 
   </head>
   <body>
@@ -21,17 +21,17 @@
 
   <header role="banner" class="probootstrap-header">
     <div class="container">
-        <a href="index.html" class="probootstrap-logo">The Greatest Farmer<span>.</span></a>
+        <a href="../index.html" class="probootstrap-logo">The Greatest Farmer<span>.</span></a>
         
         <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
         <div class="mobile-menu-overlay"></div>
 
         <nav role="navigation" class="probootstrap-nav hidden-xs">
           <ul class="probootstrap-main-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li class="active"><a href="../index.html">Home</a></li>
 <!--            <li><a href="services.html">Services</a></li>-->
-            <li><a href="view/login.php">Login</a></li>
-            <li><a href="view/signup.php">Sign Up</a></li>
+            <li><a href="login.php">Login</a></li>
+            <li><a href="signup.php">Sign Up</a></li>
           </ul>
           <div class="extra-text visible-xs"> 
             <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
@@ -53,11 +53,24 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-md-6 col-md-offset-3 mb40">
-          <h2></h2>
-          <button type="button" class="btn btn-primary">Discover the farmingWIKI</button>
-          <p>Not a farmer and still want farm-fresh produce? Let us connect you with a farmer with the region</p> 
-          <button type="button" class="btn btn-primary">Start Shopping</button>
-          <p>The greates farmers goal is to help you become the best farmer you can be, by providing tips and farming guidances from actual farmers themselves.</p>   
+          <div class="row">
+          <h2>Login</h2>
+          </div>
+           <div class="col-md-6">
+                <div class="form-group">
+                  <label for="fname">Username</label>
+                  <input type="text" class="form-control" id="fname" name="fname">
+                </div>
+              </div>
+            <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id="password" name="password">
+                </div>
+              </div>
+          </div>
+          <button type="button" class="btn btn-primary">Login</button>
         </div>
       </div>
 
@@ -71,9 +84,9 @@
   </div>
   
 
-  <script src="js/scripts.min.js"></script>
-  <script src="js/main.min.js"></script>
-  <script src="js/custom.js"></script>
+  <script src="../js/scripts.min.js"></script>
+  <script src="../js/main.min.js"></script>
+  <script src="../js/custom.js"></script>
 
   </body>
 </html>
