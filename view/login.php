@@ -56,25 +56,25 @@
           <div class="row">
           <h2>Login</h2>
           </div>
-           <div class="col-md-6">
-                <div class="form-group">
-                  <label for="fname">Username</label>
-                  <input type="text" class="form-control" id="fname" name="fname">
-                </div>
-              </div>
-            <div class="row">
+          <form method="post" action="login()"> 
             <div class="col-md-6">
+              <div class="form-group">
+                <label for="fname">Username</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
                 <div class="form-group">
                   <label for="password">Password</label>
-                  <input type="password" class="form-control" id="password" name="password">
+                  <input type="password" class="form-control" id="password" name="password" required>
                 </div>
               </div>
-          </div>
-          <button type="button" class="btn btn-primary">Login</button>
+            </div>
+            <button type="button" class="btn btn-primary">Login</button>
+          </form>           
         </div>
       </div>
-
-      
     </div>
   </div>
 
@@ -83,7 +83,7 @@
     <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
   </div>
   
-
+  <script src="../js/login.js"></script>
   <script src="../js/scripts.min.js"></script>
   <script src="../js/main.min.js"></script>
   <script src="../js/custom.js"></script>
