@@ -30,7 +30,7 @@
             <li class="active"><a href="index.html">Home</a></li>
             <div class="btn-group">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Hello, <?php if ( ! empty( $_GET['msg'] ) ) {echo htmlspecialchars($_GET['username']);} else{echo htmlspecialchars("");}?>
+                    Hello, <?php if ( ! empty( $_GET['username'] ) ) {echo htmlspecialchars($_GET['username']);} else{echo htmlspecialchars("");}?>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                     <a href="myOrder.php" style="padding-left:10px;">My Order</a><br>
