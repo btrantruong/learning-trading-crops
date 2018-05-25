@@ -27,7 +27,6 @@
         <a href="subscribe.php" style="margin-right: 10px;color:green;">Subscribe</a>
         <nav role="navigation" class="probootstrap-nav hidden-xs">
           <ul class="probootstrap-main-nav">
-            <li class="active"><a href="index.html">Home</a></li>
             <div class="btn-group">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Hello, <?php if ( ! empty( $_GET['username'] ) ) {echo htmlspecialchars($_GET['username']);} else{echo htmlspecialchars("");}?>
