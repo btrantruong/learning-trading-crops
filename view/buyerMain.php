@@ -30,15 +30,16 @@
             <li class="active"><a href="index.html">Home</a></li>
             <div class="btn-group">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Hello, <span>Doeun</span>
+                    Hello, <?php echo htmlspecialchars($_GET['username']);?>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                     <a href="" style="padding-left:10px;">My Order</a><br>
                     <a href="" style="padding-left:10px;">My Subscription</a><br>
-                    <a href="" style="padding-left:10px;">My Saved Post</a>
+                    <a href="" style="padding-left:10px;">My Saved Post</a><br>
+                    <a href="" style="padding-left:10px;">Logout</a>
                 </div>
             </div>
-            <li><a href="">Logout</a></li>
+            <li><a href="">Cart</a></li>
           </ul>
         </nav>
     </div>
