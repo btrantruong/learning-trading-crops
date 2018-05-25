@@ -22,9 +22,9 @@
   <header role="banner" class="probootstrap-header">
     <div class="container">
         <a href="index.html" class="probootstrap-logo" style="margin-right:20px;">The Greatest Farmer<span>.</span></a>
-        <a href="" style="margin-right: 10px;color:green;">Learn</a>
-        <a href="" style="margin-right: 10px;color:green;">Buy</a>
-        <a href="" style="margin-right: 10px;color:green;">Subscribe</a>
+        <a href="learn.php" style="margin-right: 10px;color:green;">Learn</a>
+        <a href="buy.php" style="margin-right: 10px;color:green;">Buy</a>
+        <a href="subscribe.php" style="margin-right: 10px;color:green;">Subscribe</a>
         <nav role="navigation" class="probootstrap-nav hidden-xs">
           <ul class="probootstrap-main-nav">
             <li class="active"><a href="index.html">Home</a></li>
@@ -39,7 +39,7 @@
                     <a href="../index.html" style="padding-left:10px;">Logout</a>
                 </div>
             </div>
-            <li><a href="">Cart</a></li>
+            <li><a href="cart.php">Cart</a></li>
           </ul>
         </nav>
     </div>

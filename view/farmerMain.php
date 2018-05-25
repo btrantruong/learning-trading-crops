@@ -25,10 +25,10 @@
   <header role="banner" class="probootstrap-header">
     <div class="container">
         <a href="index.html" class="probootstrap-logo" style="margin-right:20px;">The Greatest Farmer<span>.</span></a>
-        <a href="" style="margin-right: 10px;color:green;">Learn</a>
-        <a href="" style="margin-right: 10px;color:green;">Teach</a>
-        <a href="" style="margin-right: 10px;color:green;">Sell</a>
-        <a href="" style="margin-right: 10px;color:green;">Subscribe</a>
+        <a href="learn.php" style="margin-right: 10px;color:green;">Learn</a>
+        <a href="teach.php" style="margin-right: 10px;color:green;">Teach</a>
+        <a href="sell.php" style="margin-right: 10px;color:green;">Sell</a>
+        <a href="subscribe.php" style="margin-right: 10px;color:green;">Subscribe</a>
         <nav role="navigation" class="probootstrap-nav hidden-xs">
           <ul class="probootstrap-main-nav">
             <li class="active"><a href="index.html">Home</a></li>
