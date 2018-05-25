@@ -33,10 +33,10 @@
                     Hello, <?php if ( ! empty( $_GET['msg'] ) ) {echo htmlspecialchars($_GET['username']);} else{echo htmlspecialchars("");}?>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <a href="" style="padding-left:10px;">My Order</a><br>
-                    <a href="" style="padding-left:10px;">My Subscription</a><br>
-                    <a href="" style="padding-left:10px;">My Saved Post</a><br>
-                    <a href="" style="padding-left:10px;">Logout</a>
+                    <a href="myOrder.php" style="padding-left:10px;">My Order</a><br>
+                    <a href="mySubscription.php" style="padding-left:10px;">My Subscription</a><br>
+                    <a href="mySavedPost.php" style="padding-left:10px;">My Saved Post</a><br>
+                    <a href="../index.html" style="padding-left:10px;">Logout</a>
                 </div>
             </div>
             <li><a href="">Cart</a></li>
