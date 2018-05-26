@@ -1,6 +1,3 @@
-<?php
-
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,24 +22,23 @@
   <header role="banner" class="probootstrap-header">
     <div class="container">
         <a href="index.html" class="probootstrap-logo" style="margin-right:20px;">The Greatest Farmer<span>.</span></a>
-        <a href="learnFarmer.php" style="margin-right: 10px;color:green;">Learn</a>
-        <a href="teach.php" style="margin-right: 10px;color:green;">Teach</a>
-        <a href="sell.php" style="margin-right: 10px;color:green;">Sell</a>
-        <a href="subscribeFarmer.php" style="margin-right: 10px;color:green;">Subscribe</a>
+        <a href="learnBuyer.php" style="margin-right: 10px;color:green;">Learn</a>
+        <a href="buy.php" style="margin-right: 10px;color:green;">Buy</a>
+        <a href="subscribeBuyer.php" style="margin-right: 10px;color:green;">Subscribe</a>
         <nav role="navigation" class="probootstrap-nav hidden-xs">
           <ul class="probootstrap-main-nav">
             <div class="btn-group">
-                <button style="color:navy;background-color:transparent;" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button style="color:navy;background-color:transparent;"class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Hello, <?php if ( ! empty( $_GET['username'] ) ) {echo htmlspecialchars($_GET['username']);} else{echo htmlspecialchars("");}?>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <a href="myProduct.php" style="padding-left:10px;">My Product</a><br>
+                    <a href="myOrder.php" style="padding-left:10px;">My Order</a><br>
                     <a href="mySubscription.php" style="padding-left:10px;">My Subscription</a><br>
-                    <a href="myWrittenPost.php" style="padding-left:10px;">My Written Post</a><br>
                     <a href="mySavedPost.php" style="padding-left:10px;">My Saved Post</a><br>
                     <a href="../index.html" style="padding-left:10px;">Logout</a>
                 </div>
             </div>
+            <li><a href="cart.php">Cart</a></li>
           </ul>
         </nav>
     </div>
@@ -53,7 +49,7 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-md-6 col-md-offset-3 mb40">
-          <h2></h2>       
+          <h2></h2>      
         </div>
       </div>
 
