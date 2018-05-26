@@ -8,9 +8,9 @@
     <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
     
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles-merged.css">
-    <link rel="stylesheet" href="../css/style.min.css">
-    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../../css/styles-merged.css">
+    <link rel="stylesheet" href="../../css/style.min.css">
+    <link rel="stylesheet" href="../../css/custom.css">
 
   </head>
   <body>
@@ -21,21 +21,21 @@
 
   <header role="banner" class="probootstrap-header">
     <div class="container">
-        <a href="index.html" class="probootstrap-logo" style="margin-right:20px;">The Greatest Farmer<span>.</span></a>
-        <a href="learnBuyer.php" style="margin-right: 10px;color:green;">Learn</a>
+        <a href="../buyerMain.php" class="probootstrap-logo" style="margin-right:20px;">The Greatest Farmer<span>.</span></a>
+        <a href="learn.php" style="margin-right: 10px;color:green;">Learn</a>
         <a href="buy.php" style="margin-right: 10px;color:green;">Buy</a>
-        <a href="subscribeBuyer.php" style="margin-right: 10px;color:green;">Subscribe</a>
+        <a href="subscribe.php" style="margin-right: 10px;color:green;">Subscribe</a>
         <nav role="navigation" class="probootstrap-nav hidden-xs">
           <ul class="probootstrap-main-nav">
             <div class="btn-group">
                 <button style="color:navy;background-color:transparent;"class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Hello, <?php if ( ! empty( $_GET['username'] ) ) {echo htmlspecialchars($_GET['username']);} else{echo htmlspecialchars("");}?>
+                    Hello, <?php session_start();if ( ! empty( $_SESSION['username'] ) ) {echo htmlspecialchars($_SESSION['username']);} else{echo htmlspecialchars("");}?>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                     <a href="myOrder.php" style="padding-left:10px;">My Order</a><br>
                     <a href="mySubscription.php" style="padding-left:10px;">My Subscription</a><br>
                     <a href="mySavedPost.php" style="padding-left:10px;">My Saved Post</a><br>
-                    <a href="../index.html" style="padding-left:10px;">Logout</a>
+                    <a href="../../index.html" style="padding-left:10px;">Logout</a>
                 </div>
             </div>
             <li><a href="cart.php">Cart</a></li>
@@ -63,9 +63,9 @@
   </div>
   
 
-  <script src="../js/scripts.min.js"></script>
-  <script src="../js/main.min.js"></script>
-  <script src="../js/custom.js"></script>
+  <script src="../../js/scripts.min.js"></script>
+  <script src="../../js/main.min.js"></script>
+  <script src="../../js/custom.js"></script>
 
   </body>
 </html>

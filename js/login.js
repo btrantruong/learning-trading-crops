@@ -22,10 +22,10 @@ function login(){
             else if(json.response == "account exists"){
                 
                 if(json.member_type == "B"){
-                    var newWindow = window.open("../view/buyerMain.php?username=" + username,"_self");
+                    var newWindow = window.open("../view/buyerMain.php" ,"_self");
                 }
                 else{
-                    var newWindow = window.open("../view/farmerMain.php?username=" + username,"_self");
+                    var newWindow = window.open("../view/farmerMain.php" ,"_self");
                 }
             }
         }
