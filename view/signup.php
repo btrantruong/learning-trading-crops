@@ -6,24 +6,27 @@
     <title>The Greatest Farmer</title>
     <meta name="description" content="Free Bootstrap Theme by uicookies.com">
     <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles-merged.css">
     <link rel="stylesheet" href="../css/style.min.css">
     <link rel="stylesheet" href="../css/custom.css">
 
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="signup.js"></script>
 
   </head>
   <body>
 
   <!-- START: header -->
-  
+
   <div class="probootstrap-loader"></div>
 
   <header role="banner" class="probootstrap-header">
     <div class="container">
         <a href="../index.html" class="probootstrap-logo">The Greatest Farmer<span>.</span></a>
-        
+
         <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
         <div class="mobile-menu-overlay"></div>
 
@@ -34,7 +37,7 @@
             <li><a href="login.php">Login</a></li>
             <li class="active"><a href="signup.php">Sign Up</a></li>
           </ul>
-          <div class="extra-text visible-xs"> 
+          <div class="extra-text visible-xs">
             <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
             <h5>Address</h5>
             <p>198 West 21th Street, Suite 721 New York NY 10016</p>
@@ -61,30 +64,30 @@
               <div class="col-md-6">
                 <div class="form-group">
                   <label for="fname">First Name</label>
-                  <input type="text" class="form-control" id="fname" name="fname">
+                  <input type="text" class="form-control" id="first_name" name="fname">
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
                   <label for="lname">Last Name</label>
-                  <input type="text" class="form-control" id="lname" name="lname">
+                  <input type="text" class="form-control" id="last_name" name="lname">
                 </div>
               </div>
             <div class="col-md-6">
                 <div class="form-group">
                   <label for="lname">Username</label>
-                  <input type="text" class="form-control" id="lname" name="lname">
+                  <input type="text" class="form-control" id="user_name" name="username">
                 </div>
-            </div> 
+            </div>
             <div class="col-md-6">
                 <div class="form-group">
                    <br>
-                   <button type="button" class="btn btn-primary">Check</button>
+                   <button type="submit" class="btn btn-primary" name = "check">Check</button>
                 </div>
             </div>
             </div>
-             
-              
+
+
             <div class="form-group">
               <label for="email">Email</label>
               <input type="email" class="form-control" id="email" name="email">
@@ -97,7 +100,7 @@
               <label for="phonenumber">Phone Number</label>
               <input type="phonenumber" class="form-control" id="phonenumber" name="phonenumber">
             </div>
-            
+
             <div class="row">
               <div class="col-md-2">
                 <div class="form-group">
@@ -113,7 +116,7 @@
                 </div>
               </div>
             </div>
-              
+
             <div class="form-group">
               <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Submit">
             </div>
@@ -122,7 +125,7 @@
 
       </div>
     </div>
-  </section>  
+  </section>
 <!--
   <div class="container probootstrap-animate">
     <div id="map"></div>
@@ -151,7 +154,7 @@
   <div class="gototop js-top">
     <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
   </div>
-  
+
 
   <script src="../js/scripts.min.js"></script>
   <script src="../js/main.min.js"></script>

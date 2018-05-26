@@ -6,7 +6,7 @@
     <title>The Greatest Farmer</title>
     <meta name="description" content="Free Bootstrap Theme by uicookies.com">
     <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles-merged.css">
     <link rel="stylesheet" href="../css/style.min.css">
@@ -17,24 +17,24 @@
   <body>
 
   <!-- START: header -->
-  
+
   <div class="probootstrap-loader"></div>
 
   <header role="banner" class="probootstrap-header">
     <div class="container">
         <a href="../index.html" class="probootstrap-logo">The Greatest Farmer<span>.</span></a>
-        
+
         <nav role="navigation" class="probootstrap-nav hidden-xs">
           <ul class="probootstrap-main-nav">
             <li class="active"><a href="../index.html">Home</a></li>
-            <li><a href="login.php">Login</a></li>
+            <li><a href="login.php">LoginTEST</a></li>
             <li><a href="signup.php">Sign Up</a></li>
           </ul>
         </nav>
     </div>
   </header>
   <!-- END: header -->
-  
+
   <div class="probootstrap-section">
     <div class="container text-center">
       <div class="row">
@@ -42,7 +42,7 @@
           <div class="row">
           <h2>Login</h2>
           </div>
-          <form method="post"> 
+          <form method="post">
             <div class="col-md-6">
               <div class="form-group">
                 <label for="fname">Username</label>
@@ -58,7 +58,7 @@
               </div>
             </div>
             <input type="button" class="btn btn-primary" onclick="login()" value="Login">
-          </form>           
+          </form>
         </div>
       </div>
     </div>
@@ -68,7 +68,7 @@
   <div class="gototop js-top">
     <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
   </div>
-  
+
   <script src="../js/scripts.min.js"></script>
   <script src="../js/main.min.js"></script>
   <script src="../js/custom.js"></script>
