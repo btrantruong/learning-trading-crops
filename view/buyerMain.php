@@ -21,7 +21,7 @@
 
   <header role="banner" class="probootstrap-header">
     <div class="container">
-        <a href="../index.html" class="probootstrap-logo" style="margin-right:20px;">The Greatest Farmer<span>.</span></a>
+        <a href="buyerMain.php" class="probootstrap-logo" style="margin-right:20px;">The Greatest Farmer<span>.</span></a>
         <a href="buyer/learn.php" style="margin-right: 10px;color:green;">Learn</a>
         <a href="buyer/buy.php" style="margin-right: 10px;color:green;">Buy</a>
         <a href="buyer/subscribe.php" style="margin-right: 10px;color:green;">Subscribe</a>

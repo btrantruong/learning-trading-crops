@@ -1,6 +1,3 @@
-<?php
-
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -24,7 +21,7 @@
 
   <header role="banner" class="probootstrap-header">
     <div class="container">
-        <a href="../index.html" class="probootstrap-logo" style="margin-right:20px;">The Greatest Farmer<span>.</span></a>
+        <a href="farmerMain.php" class="probootstrap-logo" style="margin-right:20px;">The Greatest Farmer<span>.</span></a>
         <a href="farmer/learn.php" style="margin-right: 10px;color:green;">Learn</a>
         <a href="farmer/teach.php" style="margin-right: 10px;color:green;">Teach</a>
         <a href="farmer/sell.php" style="margin-right: 10px;color:green;">Sell</a>
@@ -33,7 +30,7 @@
           <ul class="probootstrap-main-nav">
             <div class="btn-group">
                 <button style="color:navy;background-color:transparent;" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Hello, <?php if ( ! empty( $_GET['username'] ) ) {echo htmlspecialchars($_GET['username']);} else{echo htmlspecialchars("");}?>
+                    Hello, <?php session_start(); if ( ! empty( $_SESSION['username'] ) ) {echo htmlspecialchars($_SESSION['username']);} else{echo htmlspecialchars("");}?>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                     <a href="farmer/myProduct.php" style="padding-left:10px;">My Product</a><br>
